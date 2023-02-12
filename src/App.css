@@ -40,12 +40,12 @@
 
 .App .navbar {
   width: 100%;
-  min-height: 10vh;
+  min-height: 7vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #fff;
-  background: rgba(29, 161, 242, 1);
+  background: rgb(24, 102, 151);
 }
 
 .App .navbar .nav-links {
@@ -56,6 +56,46 @@
 }
 
 .App .navbar .nav-links>a{
-  color: #fff;
+  color: rgb(15, 33, 94);
   text-decoration: none;
+}
+
+input {
+  display: inline;
+  min-width: 20%;
+  margin: 1em;
+  /* margin-left:; */
+  padding: 1em;
+  /* padding-left: 100px; */
+  width: 15em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
+
+input:hover {
+  border-color: rgb(15, 33, 94);
+}
+
+button {
+  margin: 0.8em;
+  padding: 1em;
+  border: 1px solid #e4e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+button:hover {
+  background-color: rgb(15, 33, 94);
+  color: white;
+}
+
+.Input-Wrapper {
+  width:auto;
+  height: fit-content;
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
 }

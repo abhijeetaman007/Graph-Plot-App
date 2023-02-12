@@ -26,13 +26,17 @@ const Input = (props) => {
     setCoordinates(values);
     console.log(coordinates)
   };
+  
+  const handleReset = () =>{
+      setCoordinates([])
+  }
 
   useEffect(()=>{
     props.onInputChange(coordinates)
   },[coordinates])
 
   return (
-    <div>
+    <div className="Input-Wrapper">
       {coordinates.map((coordinate, index) => (
         <div key={index}>
           <input
@@ -51,6 +55,8 @@ const Input = (props) => {
         </div>
       ))}
       <button onClick={handleAddClick}>Add Coordinates</button>
+      <button onClick={handleReset}>Reset Coordinates</button>
+      
     </div>
   );
 };
