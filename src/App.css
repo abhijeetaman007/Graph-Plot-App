@@ -99,3 +99,31 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.navbar{
+  font-family: 'DM Serif Display', serif;
+  font-size:x-large;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.Input-Header{
+  font-family: 'DM Serif Display', serif;
+  font-size: x-large;
+}
+/* .link-wrapper{
+  background-color: rgb(15, 33, 94);
+  opacity: 100%;
+  display: block;
+  color: #fff;
+} */
+.link-wrapper{
+  padding-inline: 40px;
+  margin-inline: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.link-wrapper:hover{
+  background-color: rgba(15, 33, 94, 0.349);
+  opacity: 100%;
+  display: block;
+  border-radius: 5px;
+} 

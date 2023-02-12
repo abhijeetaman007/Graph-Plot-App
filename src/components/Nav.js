@@ -8,9 +8,8 @@ export default function Nav(){
         <div className="navbar">
           <div className="logo">Graph-Plotting-App</div>
            <ul className="nav-links">
-              {/* <Link to="/">Home</Link> */}
-              <Link to="/">Input-Coordinates</Link>
-              <Link to="/graph">Output-Graph</Link>
+              <Link to="/" className="link-wrapper">Input-Data</Link>
+              <Link to="/graph" className="link-wrapper">Graph</Link>
            </ul>
         </div>
   );
